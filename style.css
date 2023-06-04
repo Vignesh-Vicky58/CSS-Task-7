@@ -1,0 +1,73 @@
+.side-nav {
+    display: flex;
+    border: 2px solid black;
+    margin-left: 100px;
+    margin-top: 50px;
+    width: 700px;
+    height: 500px;
+}
+
+.text {
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.green {
+    background-color: green;
+    width: 70px;
+    height: 50px;
+    border: 2px solid green;
+    border-radius: 0 6px 6px 0;
+    margin-top: 30px;
+}
+
+.blue {
+    background-color: rgb(38, 89, 201);
+    width: 70px;
+    height: 50px;
+    border: 2px solid rgb(38, 89, 201);
+    border-radius: 0 6px 6px 0;
+    margin-top: 8px;
+}
+
+.red {
+    background-color: red;
+    width: 70px;
+    height: 50px;
+    border: 2px solid red;
+    border-radius: 0 6px 6px 0;
+    margin-top: 8px;
+}
+
+.black {
+    background-color: rgb(31, 29, 29);
+    width: 70px;
+    height: 50px;
+    border: 2px solid rgb(31, 29, 29);
+    border-radius: 0 6px 6px 0;
+    margin-top: 8px;
+}
+
+.hide1, .hide2, .hide3, .hide4 {
+    display: none;
+}
+
+.green:hover + .hide1 {
+    display: block;
+    color: green;
+}
+
+.blue:hover + .hide2 {
+    display: block;
+    color: rgb(38, 89, 201);
+}
+
+.red:hover + .hide3 {
+    display: block;
+    color: red;
+}
+
+.black:hover + .hide4 {
+    display: block;
+    color: rgb(31, 29, 29);
+}
